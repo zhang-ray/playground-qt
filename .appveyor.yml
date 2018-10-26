@@ -1,0 +1,4 @@
+image: ubuntu # 16.04
+
+build_script:
+- ./scripts/build.qt.5.11.1.static.ubuntu.1604.sh
