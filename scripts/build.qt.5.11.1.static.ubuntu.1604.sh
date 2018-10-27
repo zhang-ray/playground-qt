@@ -16,4 +16,4 @@ cd qt-everywhere-src-5.11.1
 
 
 
-make -j
+make -j8
