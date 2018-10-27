@@ -3,6 +3,7 @@ tar -Jxf qt-everywhere-src-5.11.1.tar.xz
 cd qt-everywhere-src-5.11.1
 
 
+./configure -h
 
 
 ##### note
