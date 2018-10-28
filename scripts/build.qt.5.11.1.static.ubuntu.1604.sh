@@ -16,6 +16,8 @@ cd qt-everywhere-src-5.11.1
 -confirm-license \
 -static \
 -no-opengl \
+-nomake examples \
+-nomake tools \
 -skip qt3d \
 -skip qtactiveqt \
 -skip qtandroidextras \
