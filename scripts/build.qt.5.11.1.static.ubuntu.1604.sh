@@ -53,11 +53,13 @@ cd qt-everywhere-src-5.11.1
 -skip qtwebglplugin \
 -skip qtwebsockets \
 -skip qtwebview \
--skip qtwinextras \
--skip qtx11extras \
 -skip qtxmlpatterns 
 
 
 
 
 make -j8
+sudo make install
+
+cd ..
+tar -Jcf Qt-5.11.1.tar.bz /usr/local/Qt-5.11.1
