@@ -1,8 +1,5 @@
-image: ubuntu # 16.04
+image: Visual Studio 2017
 
-build_script:
-- ./scripts/build.qt.5.11.1.static.ubuntu.1604.sh
+init:
+  - ps: iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
 
-
-artifacts:
-- path: Qt-5.11.1.tar.bz
